@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#Carta\ boca\ abajo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+#Carta\ boca\ abajo:hover {
+  transform: scale(1.1);
+}
+
+#puntuacionActual {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: palevioletred;
+}
+
+#dameCarta {
+  background-color: pink;
+  color: black;
+  padding: 10px 20px;
+  border: black solid;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  /* transition: background-color 0.3s; */
+}
+
+#dameCarta:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+#dameCarta:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#mePlanto {
+  background-color: lightsalmon;
+  color: black;
+  padding: 10px 20px;
+  border: black solid;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#mePlanto:hover {
+  background-color: salmon;
+}
+
+#mePlanto:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#game-container div[game-over] {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#mensajeFinal {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#reiniciar {
+  margin-top: 10px;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: black solid;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#reiniciar:hover {
+  background-color: goldenrod;
+  color: white;
+}
